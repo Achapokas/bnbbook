@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "books",
+  "info": {
+    "name": "book"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "json",
+      "required": false,
+      "unique": true
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}
