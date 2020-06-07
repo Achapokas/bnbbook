@@ -1,2 +1,6 @@
+import { Button } from 'reactstrap'
+import RestaurantList from '../components/RestaurantList';
+
+
 export default () => 
-    <div><p>Welcome to next.js!</p></div>
+    <div><RestaurantList /></div>
