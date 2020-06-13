@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/bnbbooks",
+      "handler": "bnbbook.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/bnbbooks/count",
+      "handler": "bnbbook.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/bnbbooks/:id",
+      "handler": "bnbbook.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/bnbbooks",
+      "handler": "bnbbook.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/bnbbooks/:id",
+      "handler": "bnbbook.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/bnbbooks/:id",
+      "handler": "bnbbook.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

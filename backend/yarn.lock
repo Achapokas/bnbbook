@@ -2005,6 +2005,10 @@ axios@^0.19.2:
   dependencies:
     follow-redirects "1.5.10"
 
+axois@^0.0.1-security:
+  version "0.0.1-security"
+  resolved "https://registry.yarnpkg.com/axois/-/axois-0.0.1-security.tgz#372b4659c6a059ec4a6c6786f81fbf6cb5f892d2"
+
 babel-loader@^8.1.0:
   version "8.1.0"
   resolved "https://registry.yarnpkg.com/babel-loader/-/babel-loader-8.1.0.tgz#c611d5112bd5209abe8b9fa84c3e4da25275f1c3"

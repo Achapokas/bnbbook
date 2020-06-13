@@ -14,7 +14,7 @@
       "required": false,
       "unique": true
     },
-    "description": {
+    "location": {
       "type": "richtext"
     }
   }

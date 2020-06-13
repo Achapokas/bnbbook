@@ -17,6 +17,24 @@
     "description": {
       "type": "richtext"
     },
+    "location": {
+      "type": "richtext"
+    },
+    "cuisine": {
+      "type": "richtext"
+    },
+    "service": {
+      "type": "richtext"
+    },
+    "ig": {
+      "type": "richtext"
+    },
+    "website": {
+      "type": "richtext"
+    },
+    "phone": {
+      "type": "richtext"
+    },
     "image": {
       "collection": "file",
       "via": "related",

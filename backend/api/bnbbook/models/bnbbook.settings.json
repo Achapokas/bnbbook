@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bnbbooks",
+  "info": {
+    "name": "bnbbook"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "forceType": {
+      "type": "string"
+    },
+    "Race": {
+      "type": "string"
+    },
+    "Sex": {
+      "type": "string"
+    },
+    "EventAge": {
+      "type": "string"
+    },
+    "TypeOfResistance": {
+      "type": "string"
+    }
+  }
+}
